@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="mb_usb_microblaze_0_axi_intc_0_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_xbar_0_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_hdmi_text_controller_0_0_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_hdmi_text_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_dlmb_bram_if_cntlr_1_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_dlmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_lmb_bram_1_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_lmb_bram_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_s00_mmu_0_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_s00_mmu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_ilmb_v10_1_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_ilmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_microblaze_0_2_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_microblaze_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_usb_dlmb_v10_1_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_dlmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="mb_usb_ilmb_v10_1_synth_1"/>
+	</Run>
+	<Run Id="mb_usb_ilmb_bram_if_cntlr_1_synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/mb_usb_ilmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="mb_usb_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="mb_usb_xbar_0_synth_1"/>
+		<Parent Id="mb_usb_hdmi_text_controller_0_0_synth_1"/>
+		<Parent Id="mb_usb_dlmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="mb_usb_lmb_bram_1_synth_1"/>
+		<Parent Id="mb_usb_s00_mmu_0_synth_1"/>
+		<Parent Id="mb_usb_ilmb_v10_1_synth_1"/>
+		<Parent Id="mb_usb_microblaze_0_2_synth_1"/>
+		<Parent Id="mb_usb_dlmb_v10_1_synth_1"/>
+		<Parent Id="mb_usb_ilmb_bram_if_cntlr_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
