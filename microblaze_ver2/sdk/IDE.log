@@ -1475,3 +1475,12 @@ con
 ----------------End of Script----------------
 
 09:48:00 INFO  : Disconnected from the channel tcfchan#2.
+21:58:57 DEBUG : Logs will be stored at 'C:/Users/alexa/viv_22_proj/microblaze_ver2/sdk/IDE.log'.
+21:58:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alexa\viv_22_proj\microblaze_ver2\sdk\temp_xsdb_launch_script.tcl
+21:59:01 INFO  : Platform repository initialization has completed.
+21:59:05 INFO  : Registering command handlers for Vitis TCF services
+21:59:06 INFO  : XSCT server has started successfully.
+21:59:06 INFO  : plnx-install-location is set to ''
+21:59:06 INFO  : Successfully done setting XSCT server connection channel  
+21:59:15 INFO  : Successfully done setting workspace for the tool. 
+21:59:15 INFO  : Successfully done query RDI_DATADIR 

@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Fri Oct 31 12:04:11 2025
+//Date        : Fri Nov  7 12:28:46 2025
 //Host        : alexander-LT running 64-bit major release  (build 9200)
 //Command     : generate_target mb_usb_wrapper.bd
 //Design      : mb_usb_wrapper

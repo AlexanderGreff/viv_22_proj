@@ -1,6 +1,6 @@
-09:47:45 **** Incremental Build of configuration Debug for project microblaze_ver2_usb ****
+20:46:39 **** Incremental Build of configuration Release for project microblaze_ver2_usb ****
 make all 
 make: Nothing to be done for 'all'.
 
-09:47:45 Build Finished (took 226ms)
+20:46:39 Build Finished (took 270ms)
 

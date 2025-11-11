@@ -83,16 +83,14 @@ set_property parent.project_path C:/Users/alexa/viv_22_proj/microblaze_hdmi/micr
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths {
-  c:/Users/alexa/ip_repo/hdmi_text_controller_1_0
-  c:/Users/alexa/ip_repo
-} [current_project]
+set_property ip_repo_paths c:/Users/alexa/ip_repo [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_ip -quiet C:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.srcs/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/mb_usb_hdmi_text_controller_0_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/alexa/viv_22_proj/microblaze_hdmi/microblaze_hdmi.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_ooc.xdc]

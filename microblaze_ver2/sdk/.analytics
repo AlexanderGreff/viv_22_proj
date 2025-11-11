@@ -119,3 +119,6 @@ timestamp=[2025-10-24 09:44:46], mode=WORKBENCH_START, duration=0:00:10.220, dur
 timestamp=[2025-10-24 09:44:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.456, duration_ms=456, data={editors_count=7, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mb_usb_hdmi_top,microblaze_ver2_usb,microblaze_ver2_usb_system}
 timestamp=[2025-10-24 09:47:45], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=microblaze_ver2_usb, configuration=Debug, clean_build=false}
 timestamp=[2025-10-24 09:47:46], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=microblaze_ver2_usb_system, configuration=Debug, clean_build=false}
+timestamp=[2025-11-03 21:59:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.512, duration_ms=1512, data={}
+timestamp=[2025-11-03 21:59:04], mode=WORKBENCH_START, duration=0:00:13.654, duration_ms=13654, data={}
+timestamp=[2025-11-03 21:59:05], mode=WORKBENCH_UI_INIT, duration=0:00:01.040, duration_ms=1040, data={editors_count=7, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mb_usb_hdmi_top,microblaze_ver2_usb,microblaze_ver2_usb_system}

@@ -863,3 +863,1379 @@ con
 ----------------End of Script----------------
 
 13:00:09 INFO  : Disconnected from the channel tcfchan#4.
+22:45:34 DEBUG : Logs will be stored at 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/IDE.log'.
+22:45:35 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\temp_xsdb_launch_script.tcl
+22:45:39 INFO  : XSCT server has started successfully.
+22:45:39 INFO  : Registering command handlers for Vitis TCF services
+22:45:40 INFO  : Platform repository initialization has completed.
+22:45:45 INFO  : plnx-install-location is set to ''
+22:45:45 INFO  : Successfully done setting XSCT server connection channel  
+22:45:45 INFO  : Successfully done query RDI_DATADIR 
+22:45:45 INFO  : Successfully done setting workspace for the tool. 
+22:47:09 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+22:47:17 INFO  : Result from executing command 'removePlatformRepo': 
+22:47:27 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+22:47:27 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+22:47:28 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+22:47:59 INFO  : Result from executing command 'removePlatformRepo': 
+22:48:08 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+22:48:08 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+22:48:09 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+22:49:25 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:10:41 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:10:57 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:11:03 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:12:02 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:12:07 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:12:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:12:55 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:12:55 INFO  : 'jtag frequency' command is executed.
+23:12:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:12:56 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:12:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:12:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:12:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:57 INFO  : System reset is completed.
+23:13:00 INFO  : 'after 3000' command is executed.
+23:13:00 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:00 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:13:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:13:00 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:00 INFO  : 'con' command is executed.
+23:13:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:13:00 INFO  : Disconnected from the channel tcfchan#5.
+23:18:21 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:18:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:18:42 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:18:42 INFO  : 'jtag frequency' command is executed.
+23:18:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:18:43 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:18:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:18:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:18:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:18:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:18:43 INFO  : System reset is completed.
+23:18:47 INFO  : 'after 3000' command is executed.
+23:18:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:18:47 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:18:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:18:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:18:47 INFO  : 'con' command is executed.
+23:18:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:18:47 INFO  : Disconnected from the channel tcfchan#6.
+23:19:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:19:34 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:19:34 INFO  : 'jtag frequency' command is executed.
+23:19:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:19:35 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:19:35 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:19:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:19:35 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:35 INFO  : System reset is completed.
+23:19:38 INFO  : 'after 3000' command is executed.
+23:19:38 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:39 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:19:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:19:39 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:39 INFO  : 'con' command is executed.
+23:19:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:19:39 INFO  : Disconnected from the channel tcfchan#7.
+23:21:54 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:22:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:22:05 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:22:05 INFO  : 'jtag frequency' command is executed.
+23:22:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:22:06 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:22:07 INFO  : Context for processor 'microblaze_0' is selected.
+23:22:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:22:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:22:07 INFO  : Context for processor 'microblaze_0' is selected.
+23:22:07 INFO  : System reset is completed.
+23:22:10 INFO  : 'after 3000' command is executed.
+23:22:10 INFO  : Context for processor 'microblaze_0' is selected.
+23:22:10 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:22:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:22:10 INFO  : Context for processor 'microblaze_0' is selected.
+23:22:10 INFO  : 'con' command is executed.
+23:22:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:22:10 INFO  : Disconnected from the channel tcfchan#8.
+23:23:16 INFO  : Result from executing command 'removePlatformRepo': 
+23:23:26 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:23:26 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:23:27 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:23:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:23:47 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:23:47 INFO  : 'jtag frequency' command is executed.
+23:23:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:23:48 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:23:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:23:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:23:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:23:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:23:48 INFO  : System reset is completed.
+23:23:51 INFO  : 'after 3000' command is executed.
+23:23:51 INFO  : Context for processor 'microblaze_0' is selected.
+23:23:52 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:23:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:23:52 INFO  : Context for processor 'microblaze_0' is selected.
+23:23:52 INFO  : 'con' command is executed.
+23:23:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:23:52 INFO  : Disconnected from the channel tcfchan#11.
+23:26:25 INFO  : Result from executing command 'removePlatformRepo': 
+23:26:32 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:26:32 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:26:33 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:26:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:26:42 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:26:42 INFO  : 'jtag frequency' command is executed.
+23:26:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:26:43 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:26:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:26:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:26:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:26:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:26:43 INFO  : System reset is completed.
+23:26:46 INFO  : 'after 3000' command is executed.
+23:26:46 INFO  : Context for processor 'microblaze_0' is selected.
+23:26:47 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:26:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:26:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:26:47 INFO  : 'con' command is executed.
+23:26:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:26:47 INFO  : Disconnected from the channel tcfchan#14.
+23:36:01 INFO  : Result from executing command 'removePlatformRepo': 
+23:36:10 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:36:10 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:36:11 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:37:57 INFO  : Result from executing command 'removePlatformRepo': 
+23:38:08 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:38:09 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:38:09 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:38:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:38:22 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:38:22 INFO  : 'jtag frequency' command is executed.
+23:38:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:38:24 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+23:38:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:38:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+23:38:24 INFO  : System reset is completed.
+23:38:27 INFO  : 'after 3000' command is executed.
+23:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+23:38:27 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:38:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+23:38:27 INFO  : 'con' command is executed.
+23:38:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:38:27 INFO  : Disconnected from the channel tcfchan#19.
+23:53:01 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+23:53:09 INFO  : Result from executing command 'removePlatformRepo': 
+23:53:21 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:53:21 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:53:22 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:54:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:16 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:54:16 INFO  : 'jtag frequency' command is executed.
+23:54:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:54:17 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:54:18 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:54:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:54:18 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:18 INFO  : System reset is completed.
+23:54:21 INFO  : 'after 3000' command is executed.
+23:54:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:21 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:54:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:54:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:21 INFO  : 'con' command is executed.
+23:54:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:54:21 INFO  : Disconnected from the channel tcfchan#22.
+23:54:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:49 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:54:49 INFO  : 'jtag frequency' command is executed.
+23:54:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:54:50 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:54:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:54:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:54:51 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:51 INFO  : System reset is completed.
+23:54:54 INFO  : 'after 3000' command is executed.
+23:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:54 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:54:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+23:54:54 INFO  : 'con' command is executed.
+23:54:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:54:54 INFO  : Disconnected from the channel tcfchan#23.
+23:55:32 INFO  : Result from executing command 'removePlatformRepo': 
+23:55:40 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+23:55:40 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+23:55:41 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+23:55:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:55:49 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+23:55:49 INFO  : 'jtag frequency' command is executed.
+23:55:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:55:50 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+23:55:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:55:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+23:55:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:55:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:55:50 INFO  : System reset is completed.
+23:55:53 INFO  : 'after 3000' command is executed.
+23:55:53 INFO  : Context for processor 'microblaze_0' is selected.
+23:55:54 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+23:55:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+23:55:54 INFO  : Context for processor 'microblaze_0' is selected.
+23:55:54 INFO  : 'con' command is executed.
+23:55:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:55:54 INFO  : Disconnected from the channel tcfchan#26.
+00:00:32 INFO  : Result from executing command 'removePlatformRepo': 
+00:00:46 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+00:00:46 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+00:00:47 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+00:01:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:01:14 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+00:01:14 INFO  : 'jtag frequency' command is executed.
+00:01:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:01:15 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+00:01:15 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+00:01:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:01:15 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:15 INFO  : System reset is completed.
+00:01:18 INFO  : 'after 3000' command is executed.
+00:01:18 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:19 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+00:01:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+00:01:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:19 INFO  : 'con' command is executed.
+00:01:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:01:19 INFO  : Disconnected from the channel tcfchan#29.
+00:18:49 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+00:19:00 INFO  : Result from executing command 'removePlatformRepo': 
+00:19:12 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+00:19:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+00:19:13 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+00:19:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:19:24 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+00:19:24 INFO  : 'jtag frequency' command is executed.
+00:19:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:19:25 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+00:19:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+00:19:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:19:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:25 INFO  : System reset is completed.
+00:19:28 INFO  : 'after 3000' command is executed.
+00:19:29 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:29 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+00:19:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+00:19:29 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:29 INFO  : 'con' command is executed.
+00:19:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:19:29 INFO  : Disconnected from the channel tcfchan#32.
+00:20:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:20:07 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+00:20:07 INFO  : 'jtag frequency' command is executed.
+00:20:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:20:09 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+00:20:09 INFO  : Context for processor 'microblaze_0' is selected.
+00:20:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+00:20:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:20:09 INFO  : Context for processor 'microblaze_0' is selected.
+00:20:09 INFO  : System reset is completed.
+00:20:12 INFO  : 'after 3000' command is executed.
+00:20:12 INFO  : Context for processor 'microblaze_0' is selected.
+00:20:12 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+00:20:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+00:20:12 INFO  : Context for processor 'microblaze_0' is selected.
+00:20:12 INFO  : 'con' command is executed.
+00:20:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:20:12 INFO  : Disconnected from the channel tcfchan#33.
+10:49:19 DEBUG : Logs will be stored at 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/IDE.log'.
+10:49:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\temp_xsdb_launch_script.tcl
+10:49:26 INFO  : Registering command handlers for Vitis TCF services
+10:49:27 INFO  : Platform repository initialization has completed.
+10:49:27 INFO  : XSCT server has started successfully.
+10:49:27 INFO  : plnx-install-location is set to ''
+10:49:34 INFO  : Successfully done setting XSCT server connection channel  
+10:49:34 INFO  : Successfully done query RDI_DATADIR 
+10:49:34 INFO  : Successfully done setting workspace for the tool. 
+10:50:20 INFO  : Result from executing command 'removePlatformRepo': 
+10:50:41 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+10:50:49 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:50:58 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:51:18 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:51:18 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:51:19 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+10:52:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:52:18 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+10:52:18 INFO  : 'jtag frequency' command is executed.
+10:52:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:52:20 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:52:20 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:52:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:52:20 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:20 INFO  : System reset is completed.
+10:52:23 INFO  : 'after 3000' command is executed.
+10:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:23 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+10:52:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+10:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:23 INFO  : 'con' command is executed.
+10:52:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:52:23 INFO  : Disconnected from the channel tcfchan#5.
+10:52:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:52:57 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+10:52:57 INFO  : 'jtag frequency' command is executed.
+10:52:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:52:58 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:52:58 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:52:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:52:58 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:58 INFO  : System reset is completed.
+10:53:01 INFO  : 'after 3000' command is executed.
+10:53:01 INFO  : Context for processor 'microblaze_0' is selected.
+10:53:02 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+10:53:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+10:53:02 INFO  : Context for processor 'microblaze_0' is selected.
+10:53:02 INFO  : 'con' command is executed.
+10:53:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:53:02 INFO  : Disconnected from the channel tcfchan#6.
+10:55:13 INFO  : Result from executing command 'removePlatformRepo': 
+10:55:28 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:55:28 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:55:29 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+10:55:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:55:38 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+10:55:38 INFO  : 'jtag frequency' command is executed.
+10:55:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:55:39 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+10:55:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:55:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+10:55:40 INFO  : System reset is completed.
+10:55:43 INFO  : 'after 3000' command is executed.
+10:55:43 INFO  : Context for processor 'microblaze_0' is selected.
+10:55:43 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+10:55:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+10:55:43 INFO  : Context for processor 'microblaze_0' is selected.
+10:55:43 INFO  : 'con' command is executed.
+10:55:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:55:43 INFO  : Disconnected from the channel tcfchan#9.
+10:59:01 INFO  : Result from executing command 'removePlatformRepo': 
+10:59:12 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:59:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:59:13 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+10:59:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:59:21 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+10:59:21 INFO  : 'jtag frequency' command is executed.
+10:59:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:59:22 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:59:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:59:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:59:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:59:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:59:22 INFO  : System reset is completed.
+10:59:25 INFO  : 'after 3000' command is executed.
+10:59:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:59:26 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+10:59:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+10:59:26 INFO  : Context for processor 'microblaze_0' is selected.
+10:59:26 INFO  : 'con' command is executed.
+10:59:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:59:26 INFO  : Disconnected from the channel tcfchan#12.
+11:00:50 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:00:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:00:58 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:00:58 INFO  : 'jtag frequency' command is executed.
+11:00:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:01:00 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:01:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:01:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:01:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:01:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:01:00 INFO  : System reset is completed.
+11:01:03 INFO  : 'after 3000' command is executed.
+11:01:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:01:03 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:01:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:01:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:01:03 INFO  : 'con' command is executed.
+11:01:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:01:03 INFO  : Disconnected from the channel tcfchan#13.
+11:05:46 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:05:48 INFO  : The hardware specification used by project 'mb_hdmi' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:05:48 INFO  : The file 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+11:05:48 INFO  : The file 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+11:05:48 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream' in project 'mb_hdmi'.
+11:05:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:05:59 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:05:59 INFO  : 'jtag frequency' command is executed.
+11:05:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:06:00 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:06:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:06:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:06:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:00 INFO  : System reset is completed.
+11:06:03 INFO  : 'after 3000' command is executed.
+11:06:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:04 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:06:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:06:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:04 INFO  : 'con' command is executed.
+11:06:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:06:04 INFO  : Disconnected from the channel tcfchan#14.
+11:06:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:06:47 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:06:47 INFO  : 'jtag frequency' command is executed.
+11:06:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:06:49 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:06:49 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:49 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:06:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:06:49 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:49 INFO  : System reset is completed.
+11:06:52 INFO  : 'after 3000' command is executed.
+11:06:52 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:52 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:06:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:06:52 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:52 INFO  : 'con' command is executed.
+11:06:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:06:52 INFO  : Disconnected from the channel tcfchan#15.
+11:08:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:08:59 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:08:59 INFO  : 'jtag frequency' command is executed.
+11:08:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:09:00 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:09:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:09:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:09:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:01 INFO  : System reset is completed.
+11:09:04 INFO  : 'after 3000' command is executed.
+11:09:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:04 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:09:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:09:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:04 INFO  : 'con' command is executed.
+11:09:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:09:04 INFO  : Disconnected from the channel tcfchan#16.
+11:09:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:47 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:09:47 INFO  : 'jtag frequency' command is executed.
+11:09:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:09:48 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:09:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:09:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:09:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:48 INFO  : System reset is completed.
+11:09:51 INFO  : 'after 3000' command is executed.
+11:09:51 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:52 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:09:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:09:52 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:52 INFO  : 'con' command is executed.
+11:09:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:09:52 INFO  : Disconnected from the channel tcfchan#17.
+11:12:50 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:12:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:12:57 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:12:57 INFO  : 'jtag frequency' command is executed.
+11:12:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:12:58 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:12:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:12:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:12:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:12:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:12:58 INFO  : System reset is completed.
+11:13:01 INFO  : 'after 3000' command is executed.
+11:13:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:13:02 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:13:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:13:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:13:02 INFO  : 'con' command is executed.
+11:13:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:13:02 INFO  : Disconnected from the channel tcfchan#18.
+11:18:01 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:19:00 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:19:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:09 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:19:09 INFO  : 'jtag frequency' command is executed.
+11:19:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:19:11 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:19:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:19:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:19:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:11 INFO  : System reset is completed.
+11:19:14 INFO  : 'after 3000' command is executed.
+11:19:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:14 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:19:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:19:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:14 INFO  : 'con' command is executed.
+11:19:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:19:14 INFO  : Disconnected from the channel tcfchan#19.
+11:20:11 INFO  : Result from executing command 'removePlatformRepo': 
+11:20:25 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:20:25 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:20:26 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:20:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:20:36 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:20:36 INFO  : 'jtag frequency' command is executed.
+11:20:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:20:38 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:20:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:20:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:20:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:20:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:20:38 INFO  : System reset is completed.
+11:20:41 INFO  : 'after 3000' command is executed.
+11:20:41 INFO  : Context for processor 'microblaze_0' is selected.
+11:20:41 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:20:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:20:41 INFO  : Context for processor 'microblaze_0' is selected.
+11:20:41 INFO  : 'con' command is executed.
+11:20:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:20:41 INFO  : Disconnected from the channel tcfchan#22.
+11:21:13 INFO  : Result from executing command 'removePlatformRepo': 
+11:21:34 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:21:34 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:21:35 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:22:05 INFO  : Result from executing command 'removePlatformRepo': 
+11:22:18 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:22:18 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:22:19 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:22:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:28 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:22:28 INFO  : 'jtag frequency' command is executed.
+11:22:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:22:29 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:22:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:22:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:22:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:29 INFO  : System reset is completed.
+11:22:32 INFO  : 'after 3000' command is executed.
+11:22:32 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:33 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:22:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:22:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:33 INFO  : 'con' command is executed.
+11:22:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:22:33 INFO  : Disconnected from the channel tcfchan#27.
+11:26:08 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:26:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:26:18 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:26:18 INFO  : 'jtag frequency' command is executed.
+11:26:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:26:19 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:26:19 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:26:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:26:19 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:19 INFO  : System reset is completed.
+11:26:22 INFO  : 'after 3000' command is executed.
+11:26:22 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:23 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:26:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:26:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:23 INFO  : 'con' command is executed.
+11:26:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:26:23 INFO  : Disconnected from the channel tcfchan#28.
+11:49:43 DEBUG : Logs will be stored at 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/IDE.log'.
+11:49:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\temp_xsdb_launch_script.tcl
+11:49:47 INFO  : XSCT server has started successfully.
+11:49:47 INFO  : Successfully done setting XSCT server connection channel  
+11:49:47 INFO  : plnx-install-location is set to ''
+11:49:47 INFO  : Successfully done setting workspace for the tool. 
+11:49:48 INFO  : Successfully done query RDI_DATADIR 
+11:49:48 INFO  : Registering command handlers for Vitis TCF services
+11:49:49 INFO  : Platform repository initialization has completed.
+11:50:05 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:50:14 INFO  : Result from executing command 'removePlatformRepo': 
+11:50:32 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:50:32 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:50:33 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:50:40 INFO  : Result from executing command 'removePlatformRepo': 
+11:50:53 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:50:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:50:54 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:51:18 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:51:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:37 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:51:37 INFO  : 'jtag frequency' command is executed.
+11:51:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:51:39 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:51:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:39 INFO  : System reset is completed.
+11:51:42 INFO  : 'after 3000' command is executed.
+11:51:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:42 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:51:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:51:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:42 INFO  : 'con' command is executed.
+11:51:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:51:42 INFO  : Disconnected from the channel tcfchan#5.
+11:52:02 INFO  : Result from executing command 'removePlatformRepo': 
+11:52:08 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+11:52:20 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:52:20 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:52:21 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:52:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:31 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:52:31 INFO  : 'jtag frequency' command is executed.
+11:52:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:52:33 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:52:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:52:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:52:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:33 INFO  : System reset is completed.
+11:52:36 INFO  : 'after 3000' command is executed.
+11:52:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:36 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:52:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:52:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:36 INFO  : 'con' command is executed.
+11:52:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:52:36 INFO  : Disconnected from the channel tcfchan#9.
+11:56:15 DEBUG : Logs will be stored at 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/IDE.log'.
+11:56:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\temp_xsdb_launch_script.tcl
+11:56:21 INFO  : Registering command handlers for Vitis TCF services
+11:56:22 INFO  : Platform repository initialization has completed.
+11:56:22 INFO  : XSCT server has started successfully.
+11:56:22 INFO  : plnx-install-location is set to ''
+11:56:22 INFO  : Successfully done setting XSCT server connection channel  
+11:56:28 INFO  : Successfully done setting workspace for the tool. 
+11:56:28 INFO  : Successfully done query RDI_DATADIR 
+11:56:42 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:56:55 INFO  : Result from executing command 'removePlatformRepo': 
+11:57:14 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+11:57:32 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:57:32 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:57:44 INFO  : Result from executing command 'removePlatformRepo': 
+11:57:55 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:57:55 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:57:56 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+11:58:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:07 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+11:58:07 INFO  : 'jtag frequency' command is executed.
+11:58:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:58:08 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:58:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:09 INFO  : System reset is completed.
+11:58:12 INFO  : 'after 3000' command is executed.
+11:58:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:12 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+11:58:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+11:58:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:12 INFO  : 'con' command is executed.
+11:58:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:58:12 INFO  : Disconnected from the channel tcfchan#6.
+12:00:34 INFO  : Result from executing command 'removePlatformRepo': 
+12:00:44 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+12:00:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+12:00:45 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+12:00:47 INFO  : The hardware specification used by project 'mb_hdmi' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:00:47 INFO  : The file 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+12:00:47 INFO  : The file 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+12:00:47 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\alexa\viv_22_proj\microblaze_hdmi\sdk\mb_hdmi\_ide\bitstream' in project 'mb_hdmi'.
+12:00:52 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+12:01:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:01 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+12:01:01 INFO  : 'jtag frequency' command is executed.
+12:01:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:01:02 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+12:01:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+12:01:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:01:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:02 INFO  : System reset is completed.
+12:01:05 INFO  : 'after 3000' command is executed.
+12:01:05 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:05 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+12:01:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+12:01:05 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:06 INFO  : 'con' command is executed.
+12:01:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:01:06 INFO  : Disconnected from the channel tcfchan#9.
+12:06:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:47 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+12:06:47 INFO  : 'jtag frequency' command is executed.
+12:06:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:06:48 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+12:06:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+12:06:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:06:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:48 INFO  : System reset is completed.
+12:06:51 INFO  : 'after 3000' command is executed.
+12:06:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:52 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+12:06:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+12:06:52 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:52 INFO  : 'con' command is executed.
+12:06:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:06:52 INFO  : Disconnected from the channel tcfchan#10.
+13:00:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:16 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+13:00:16 INFO  : 'jtag frequency' command is executed.
+13:00:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:00:17 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:00:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:00:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:00:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:17 INFO  : System reset is completed.
+13:00:20 INFO  : 'after 3000' command is executed.
+13:00:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:21 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+13:00:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+13:00:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:21 INFO  : 'con' command is executed.
+13:00:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:00:21 INFO  : Disconnected from the channel tcfchan#11.
+13:01:19 INFO  : Checking for BSP changes to sync application flags for project 'mb_hdmi'...
+13:01:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:01:26 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+13:01:26 INFO  : 'jtag frequency' command is executed.
+13:01:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:01:27 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:01:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:01:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:01:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:27 INFO  : System reset is completed.
+13:01:30 INFO  : 'after 3000' command is executed.
+13:01:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:31 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+13:01:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+13:02:03 INFO  : Disconnected from the channel tcfchan#12.
+13:02:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:04 INFO  : Jtag cable 'RealDigital Boo 887100000008A' is selected.
+13:02:04 INFO  : 'jtag frequency' command is executed.
+13:02:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:02:06 INFO  : Device configured successfully with "C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:02:06 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:02:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:02:06 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:06 INFO  : System reset is completed.
+13:02:09 INFO  : 'after 3000' command is executed.
+13:02:09 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:09 INFO  : The application 'C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf' is downloaded to processor 'microblaze_0'.
+13:02:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000008A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alexa/viv_22_proj/microblaze_hdmi/sdk/mb_hdmi/Debug/mb_hdmi.elf
+----------------End of Script----------------
+
+13:02:09 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:09 INFO  : 'con' command is executed.
+13:02:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:02:09 INFO  : Disconnected from the channel tcfchan#13.
